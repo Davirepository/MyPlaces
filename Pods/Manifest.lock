@@ -1,0 +1,35 @@
+PODS:
+  - Cosmos (11.0.3)
+  - Realm (3.10.0):
+    - Realm/Headers (= 3.10.0)
+  - Realm/Headers (3.10.0)
+  - RealmSwift (3.10.0):
+    - Realm (= 3.10.0)
+
+DEPENDENCIES:
+  - Cosmos (from `https://github.com/evgenyneu/Cosmos.git`, branch `swift-4.0`)
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  Cosmos:
+    :branch: swift-4.0
+    :git: https://github.com/evgenyneu/Cosmos.git
+
+CHECKOUT OPTIONS:
+  Cosmos:
+    :commit: a2d864e02f94fa439387eaeb648cc17a7e5452c4
+    :git: https://github.com/evgenyneu/Cosmos.git
+
+SPEC CHECKSUMS:
+  Cosmos: c7f103e2ddbd32d2959c00a39a97c696e688d00e
+  Realm: 85ab9e4f779d66f6e9ffeb118dc25b7f130c96ac
+  RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
+
+PODFILE CHECKSUM: 1201023721cfa07a8508df6211da474b90219bf3
+
+COCOAPODS: 1.5.3
