@@ -20,7 +20,7 @@ import UIKit
     }
     
     @IBInspectable var starSize: CGSize = CGSize(width: 44.0, height: 44.0) {  // @IBInspectable - позволяет отобразить свойсва в инспекторе интерфейсбилдера
-        didSet {                     // ставим наблюдателя для сохранения измененых значений через инспектор в интерфейсбилдере
+        didSet {                     
             setupButtons()
         }
     }
@@ -47,7 +47,7 @@ import UIKit
     
     @objc func ratingButtonTapped(button: UIButton) {
         
-        guard let index = ratingButtons.firstIndex(of: button) else { return }  // firstIndex(of:) - возвращает индекс первого выбранного элемента
+        guard let index = ratingButtons.firstIndex(of: button) else { return } 
         
         // Calculate the rating of the selected button
         let selectedRating = index + 1
